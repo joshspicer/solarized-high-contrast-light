@@ -3,7 +3,7 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.2.0] - 2023-01-08
 ### Changed
 - Editor foreground color from #242424 to #070707 (contrast ratio 14.18 → 20.14)
 - String token color from #a55307 to #9e3a00 (contrast ratio 5.46 → 6.86)
