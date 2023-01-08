@@ -1,30 +1,30 @@
 {
-  "name": "solarized-high-contrast-light",
-  "displayName": "Solarized High Contrast Light",
-  "description": "Sepia-toned, high-contrast light theme with minimal syntax highlighting",
-  "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "hc-minimal",
-        "label": "High Contrast Minimal",
-        "path": "./fileicons/hc_minimal-icon-theme.json"
-      }
-    ],
-    "themes": [
-      {
-        "label": "Solarized High Contrast Light",
-        "uiTheme": "hc-light",
-        "path": "./themes/Solarized High Contrast Light-color-theme.json"
-      }
-    ]
-  },
-  "repository": "https://github.com/tinytinytinytiny/solarized-high-contrast-light.git",
-  "publisher": "tiny"
+	"name": "solarized-high-contrast-light",
+	"displayName": "Solarized High Contrast Light",
+	"description": "Sepia-toned, high-contrast light theme with minimal syntax highlighting",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "hc-minimal",
+				"label": "High Contrast Minimal",
+				"path": "./fileicons/hc_minimal-icon-theme.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "Solarized High Contrast Light",
+				"uiTheme": "hc-light",
+				"path": "./themes/Solarized High Contrast Light-color-theme.json"
+			}
+		]
+	},
+	"repository": "https://github.com/tinytinytinytiny/solarized-high-contrast-light.git",
+	"publisher": "tiny"
 }
