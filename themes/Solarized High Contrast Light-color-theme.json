@@ -174,10 +174,7 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.css",
-				"variable.argument.css"
-			],
+			"scope": "variable.argument.css",
 			"settings": {
 				"fontStyle": "italic"
 			}
