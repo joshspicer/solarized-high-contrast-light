@@ -1,7 +1,7 @@
 # Solarized High Contrast Light
 High-contrast light theme for [Visual Studio Code](https://code.visualstudio.com/)
 
-![Screenshot of the Solarized High Contrast Light theme in Visual Studio Code. The editor is split into two panels arranged side-by-side, the left panel displaying JavaScript code and the right panel displaying a JSON file.](images/preview_0.2.0.png)
+![Screenshot of the Solarized High Contrast Light theme in Visual Studio Code. The editor is split into two panels arranged side-by-side, the left panel displaying Python code and the right panel displaying a JSON file.](images/preview_0.2.0.png)
 
 ## Installation
 1. Install theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=tiny.solarized-high-contrast-light)
