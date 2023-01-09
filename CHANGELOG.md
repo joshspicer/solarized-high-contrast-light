@@ -3,6 +3,14 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.3.0] - 2023-01-09
+### Added
+- Alternating bracket pair colors
+- Border on highlighted line
+
+### Changed
+- Editor background color from #f8f5e4 to #faf7e6
+
 ## [0.2.0] - 2023-01-08
 ### Changed
 - Editor foreground color from #242424 to #070707 (contrast ratio 14.18 → 18.40)
