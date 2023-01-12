@@ -3,6 +3,10 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.4.0] - 2023-01-12
+### Added
+- Italicize SCSS variables
+
 ## [0.3.0] - 2023-01-09
 ### Added
 - Alternating bracket pair colors
