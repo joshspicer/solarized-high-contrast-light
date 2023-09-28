@@ -129,14 +129,14 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#90917f",
+				"foreground": "#ce1753",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "punctuation.definition.comment",
 			"settings": {
-				"foreground": "#90917f"
+				"foreground": "#ce1753"
 			}
 		},
 		{
@@ -146,6 +146,12 @@
 			],
 			"settings": {
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#057745",
 			}
 		},
 		{
@@ -170,7 +176,7 @@
 				"string.unquoted"
 			],
 			"settings": {
-				"foreground": "#b62b04"
+				"foreground": "#4224d1"
 			}
 		},
 		{
@@ -185,7 +191,7 @@
 				"variable.scss"
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
 			}
 		},
 		{

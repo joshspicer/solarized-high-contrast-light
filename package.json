@@ -22,6 +22,11 @@
 				"label": "Solarized High Contrast Light",
 				"uiTheme": "hc-light",
 				"path": "./themes/Solarized High Contrast Light-color-theme.json"
+			},
+			{
+				"label": "Solarized High Contrast Light+",
+				"uiTheme": "hc-light",
+				"path": "./themes/Solarized High Contrast Light+-color-theme.json"
 			}
 		]
 	},
