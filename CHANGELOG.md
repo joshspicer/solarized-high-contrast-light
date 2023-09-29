@@ -5,8 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Unreleased
 ### Added
-- Editor background is brighter and warmer. Various text and interface colors have been adjusted to match the new background color.
-- New theme with tri-tone syntax highlighting
+- New theme with 3-color syntax highlighting palette
+
+### Changed
+- CSS variables are underlined instead of italicized
+- Text and interface colors have been adjusted to a warmer hue
 
 ## 0.4.0 - 2023-01-12
 ### Added
