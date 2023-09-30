@@ -7,12 +7,12 @@ High-contrast light theme for [Visual Studio Code](https://code.visualstudio.com
 ### Solarized High Contrast Light
 A monochrome palette with a single accent color for highlighting strings.
 
-![HTML and CSS code displayed in a monochrome syntax highlighting palette. The burnt orange coloring of the strings stand out in contrast to the neutral blacks and grays in which everything else is colored.](images/preview_monochrome_syntax_1.0.0.png)
+![Code almost entirely devoid of syntax coloring, consisting of only neutral blacks and grays, save for a burnt orange accent given to the strings.](images/preview_monochrome_syntax_1.0.0.png)
 
 ### Solarized High Contrast Light+ 
 A three-color palette featuring distinct colors for strings, comments, and constants.
 
-![HTML and CSS code displayed in a three-color syntax highlighting palette. Strings are colored in blue, comments are colored in red, and constants are colored in green.](images/preview_trichrome_syntax_1.0.0.png)
+![Code rendered in a three-color palette. Strings are colored in indigo, comments in maroon, and constants in green.](images/preview_trichrome_syntax_1.0.0.png)
 
 ## Installation
 1. Install theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=tiny.solarized-high-contrast-light)

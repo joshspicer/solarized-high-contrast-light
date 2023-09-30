@@ -5,11 +5,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Unreleased
 ### Added
-- New theme with 3-color syntax highlighting palette
+- **New theme with 3-color syntax highlighting palette**
+- Editor gutter background color
 
 ### Changed
+- Comments have increased contrast (55.6 Lc → 60.3 Lc)
 - CSS variables are underlined instead of italicized
+- Invalid syntax is bolded and italicized
 - Text and interface colors have been adjusted to a warmer hue
+- Titlebar is darker
 
 ## 0.4.0 - 2023-01-12
 ### Added
