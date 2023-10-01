@@ -3,6 +3,11 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.0 - 2023-10-01
+### Changed
+- Button background, contrast border, selection background, and terminal background now matches the editor background in hue
+- Titlebar background darkened
+
 ## 1.0.0 - 2023-10-01
 ### Added
 - **New theme: Solarized High Contrast Light+**
