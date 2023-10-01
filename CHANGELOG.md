@@ -3,17 +3,17 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## Unreleased
+## 1.0.0 - 2023-10-01
 ### Added
-- **New theme with 3-color syntax highlighting palette**
-- Editor gutter background color
+- **New theme: Solarized High Contrast Light+**
+- Background color behind line numbers and sticky scroll
 
 ### Changed
-- Comments have increased contrast (55.6 Lc → 60.3 Lc)
+- [Solarized High Contrast Light] Increased contrast of comments (55.6 Lc → 60.3 Lc)
+- Reduced contrast of bold text (99.7 Lc → 88.5 Lc)
 - CSS variables are underlined instead of italicized
 - Invalid syntax is bolded and italicized
 - Text and interface colors have been adjusted to a warmer hue
-- Titlebar is darker
 
 ## 0.4.0 - 2023-01-12
 ### Added
