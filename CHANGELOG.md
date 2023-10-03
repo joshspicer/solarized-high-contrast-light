@@ -3,6 +3,10 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+# 1.1.1 - 2023-10-02
+### Fixed
+- Improved contrast of bold text (88.5 Lc → 94.6 Lc)
+
 ## 1.1.0 - 2023-10-01
 ### Changed
 - Button background, contrast border, selection background, and terminal background now matches the editor background in hue
