@@ -96,7 +96,8 @@
 		{
 			"scope": [
 				"emphasis",
-				"markup.italic"
+				"markup.italic",
+				"comment"
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -143,14 +144,12 @@
 			}
 		},
 		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#7E7F8C",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": "punctuation.definition.comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"comment.block.documentation",
+				"storage.type.class.jsdoc"
+			],
 			"settings": {
 				"foreground": "#7E7F8C"
 			}
