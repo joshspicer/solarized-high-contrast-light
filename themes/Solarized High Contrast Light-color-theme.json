@@ -12,15 +12,15 @@
 		"contrastBorder": "#3a3831",
 		"editor.background": "#f8f4e5",
 		"editorBracketHighlight.foreground1": "#ad9969",
-		"editorBracketHighlight.foreground2": "#1a1606",
+		"editorBracketHighlight.foreground2": "#000",
 		"editorBracketHighlight.foreground3": "#ad9969",
-		"editorBracketHighlight.foreground4": "#1a1606",
+		"editorBracketHighlight.foreground4": "#000",
 		"editorBracketHighlight.foreground5": "#ad9969",
-		"editorBracketHighlight.foreground6": "#1a1606",
+		"editorBracketHighlight.foreground6": "#000",
 		"editorBracketMatch.background": "#FDFBF3",
 		"editorBracketMatch.border": "#676357",
 		"editor.findMatchBackground": "#3a3831",
-		"editor.foreground": "#1a1606",
+		"editor.foreground": "#000",
 		"editor.lineHighlightBackground": "#fcf9ed",
 		"editor.lineHighlightBorder": "#d2cbb5",
 		"editor.selectionBackground": "#3a3831",
@@ -38,7 +38,7 @@
 		"editorIndentGuide.background4": "#c6c4bd",
 		"editorIndentGuide.background5": "#c6c4bd",
 		"editorIndentGuide.background6": "#c6c4bd",
-		"editorLineNumber.activeForeground": "#1a1606",
+		"editorLineNumber.activeForeground": "#000",
 		"editorLineNumber.foreground": "#a69e8a",
 		"editorOverviewRuler.addedForeground": "#ff000000",
 		"editorOverviewRuler.border": "#ff000000",
@@ -77,7 +77,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#1a1606"
+				"foreground": "#000"
 			}
 		},
 		{
@@ -89,8 +89,7 @@
 				"storage"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#2e2917"
+				"fontStyle": "bold"
 			}
 		},
 		{

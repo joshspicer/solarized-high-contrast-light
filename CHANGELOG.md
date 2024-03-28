@@ -3,12 +3,16 @@ All notable changes to the "solarized-high-contrast-light" extension will be doc
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.0 - 2024-03-28
+### Changed
+- Editor foreground from #1a1606 to #000 (98.1 → 99.4 Lc)
+
 # 1.1.2 - 2023-10-03
 ### Fixed
 - JSDoc block tags properly receive comment syntax coloring
 
 # 1.1.1 - 2023-10-02
-### Fixed
+### Changed
 - Improved contrast of bold text (88.5 Lc → 94.6 Lc)
 
 ## 1.1.0 - 2023-10-01
