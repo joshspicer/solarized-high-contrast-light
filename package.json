@@ -1,14 +1,22 @@
 {
-	"name": "solarized-high-contrast-light",
-	"displayName": "Solarized High Contrast Light",
-	"description": "Sepia-toned, high-contrast light theme with minimal syntax highlighting",
-	"version": "1.3.1",
+	"name": "sharp-solarized",
+	"displayName": "Sharp Solarized - Light High Contrast",
+	"description": "Sepia-toned, high-contrast light theme",
+	"version": "1.0.0",
 	"engines": {
-		"vscode": "^1.74.0"
+		"vscode": "^1.100.0"
 	},
 	"categories": [
 		"Themes"
 	],
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"vscode:prepublish": "echo 'No build step needed for theme extension'"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.0.0"
+	},
 	"contributes": {
 		"iconThemes": [
 			{
@@ -19,17 +27,17 @@
 		],
 		"themes": [
 			{
-				"label": "Solarized High Contrast Light",
+				"label": "Sharp Solarized - Light High Contrast",
 				"uiTheme": "hc-light",
-				"path": "./themes/Solarized High Contrast Light-color-theme.json"
+				"path": "./themes/Sharp Solarized - Light High Contrast-color-theme.json"
 			},
 			{
-				"label": "Solarized High Contrast Light+",
+				"label": "Sharp Solarized - Light High Contrast+",
 				"uiTheme": "hc-light",
-				"path": "./themes/Solarized High Contrast Light+-color-theme.json"
+				"path": "./themes/Sharp Solarized - Light High Contrast+-color-theme.json"
 			}
 		]
 	},
-	"repository": "https://github.com/tinytinytinytiny/solarized-high-contrast-light.git",
-	"publisher": "tiny"
+	"repository": "https://github.com/joshspicer/solarized-high-contrast-light.git",
+	"publisher": "joshspicer"
 }
