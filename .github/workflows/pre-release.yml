@@ -26,11 +26,12 @@ jobs:
       run: |
         # Get current version from package.json (e.g., "1.0.0")
         CURRENT_VERSION=$(node -p "require('./package.json').version")
-        # Generate pre-release version with timestamp (e.g., "1.0.20250718202055")
-        TIMESTAMP=$(date +%Y%m%d%H%M%S)
-        # Extract major.minor from current version and append timestamp
+        # Generate pre-release version with date-based build number
+        # Format: YMMDDHHMM (e.g., 507182220) - fits in 32-bit int limit
+        BUILD_NUMBER=$(date +%y%m%d%H%M | sed 's/^2//')
+        # Extract major.minor from current version and append build number
         MAJOR_MINOR=$(echo $CURRENT_VERSION | cut -d. -f1,2)
-        PRE_RELEASE_VERSION="${MAJOR_MINOR}.${TIMESTAMP}"
+        PRE_RELEASE_VERSION="${MAJOR_MINOR}.${BUILD_NUMBER}"
         echo "version=$PRE_RELEASE_VERSION" >> $GITHUB_OUTPUT
         echo "Pre-release version: $PRE_RELEASE_VERSION"
         
@@ -52,3 +53,17 @@ jobs:
         name: vsix-pre-release
         path: "*.vsix"
         retention-days: 30
+        
+    - name: Create GitHub pre-release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ steps.version.outputs.version }}
+        release_name: Pre-release v${{ steps.version.outputs.version }}
+        body: |
+          Automated pre-release build from commit ${{ github.sha }}
+          
+          Published to VS Code marketplace as pre-release version.
+        draft: false
+        prerelease: true
