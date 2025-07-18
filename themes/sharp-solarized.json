@@ -71,19 +71,16 @@
 		"titleBar.inactiveForeground": "#070603",
 		"tree.indentGuidesStroke": "#58564c",
 		"tree.inactiveIndentGuidesStroke": "#58564c70",
-		
-		"inlineEdit.originalBackground": "#ff4d4d40",
-		"inlineEdit.originalChangedLineBackground": "#cc000080",
-		"inlineEdit.originalChangedTextBackground": "#cc000080",
-		"inlineEdit.originalBorder": "#cc0000",
-		"inlineEdit.tabWillAcceptOriginalBorder": "#990000",
-		
-		"inlineEdit.modifiedBackground": "#00cc0040",
-		"inlineEdit.modifiedChangedLineBackground": "#00800080",
-		"inlineEdit.modifiedChangedTextBackground": "#00990080",
-		"inlineEdit.modifiedBorder": "#008000",
-		"inlineEdit.tabWillAcceptModifiedBorder": "#006600",
-		
+		"inlineEdit.originalBackground": "#ff4d4d80",
+		"inlineEdit.originalChangedLineBackground": "#cc0000b0",
+		"inlineEdit.originalChangedTextBackground": "#aa0000c0",
+		"inlineEdit.originalBorder": "#990000",
+		"inlineEdit.tabWillAcceptOriginalBorder": "#660000",
+		"inlineEdit.modifiedBackground": "#4dd64d80",
+		"inlineEdit.modifiedChangedLineBackground": "#008000b0",
+		"inlineEdit.modifiedChangedTextBackground": "#006600c0",
+		"inlineEdit.modifiedBorder": "#006600",
+		"inlineEdit.tabWillAcceptModifiedBorder": "#004400",
 		"inlineEdit.gutterIndicator.primaryForeground": "#fff",
 		"inlineEdit.gutterIndicator.primaryBackground": "#423E31",
 		"inlineEdit.gutterIndicator.primaryBorder": "#423E31",
@@ -202,6 +199,17 @@
 			],
 			"settings": {
 				"foreground": "#b02402"
+			}
+		},
+		{
+			"scope": [
+				"markup.inline.raw",
+				"markup.inline.raw.string",
+				"markup.fenced_code",
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "#cc7a00"
 			}
 		},
 		{
