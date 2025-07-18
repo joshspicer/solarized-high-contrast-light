@@ -39,8 +39,8 @@ To enable the pre-release workflow, you need to set up a Personal Access Token (
 The pre-release workflow (`/.github/workflows/pre-release.yml`) automatically:
 
 1. **Triggers** on any push to the `main` branch
-2. **Generates a pre-release version** using the format: `{current-version}-pre.{timestamp}.{commit-hash}`
-   - Example: `1.0.0-pre.20241217123045.a1b2c3d`
+2. **Generates a pre-release version** using the format: `{major}.{minor}.{timestamp}`
+   - Example: `1.0.20241217123045`
 3. **Packages** the extension using `vsce package`
 4. **Publishes** the extension as a pre-release to the VS Code Marketplace
 5. **Uploads** the `.vsix` file as a GitHub Actions artifact for 30 days

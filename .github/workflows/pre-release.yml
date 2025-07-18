@@ -24,12 +24,13 @@ jobs:
     - name: Generate pre-release version
       id: version
       run: |
-        # Get current version from package.json
+        # Get current version from package.json (e.g., "1.0.0")
         CURRENT_VERSION=$(node -p "require('./package.json').version")
-        # Generate pre-release version with timestamp
+        # Generate pre-release version with timestamp (e.g., "1.0.20250718202055")
         TIMESTAMP=$(date +%Y%m%d%H%M%S)
-        COMMIT_SHA=$(git rev-parse --short HEAD)
-        PRE_RELEASE_VERSION="${CURRENT_VERSION}-pre.${TIMESTAMP}.${COMMIT_SHA}"
+        # Extract major.minor from current version and append timestamp
+        MAJOR_MINOR=$(echo $CURRENT_VERSION | cut -d. -f1,2)
+        PRE_RELEASE_VERSION="${MAJOR_MINOR}.${TIMESTAMP}"
         echo "version=$PRE_RELEASE_VERSION" >> $GITHUB_OUTPUT
         echo "Pre-release version: $PRE_RELEASE_VERSION"
         
