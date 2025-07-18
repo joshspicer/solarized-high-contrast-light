@@ -69,17 +69,23 @@
 		"tree.indentGuidesStroke": "#58564c",
 		"tree.inactiveIndentGuidesStroke": "#58564c70",
 		
-		// Inline Edit Colors - High Contrast Green and Red
-		"inlineEdit.originalBackground": "#ff4d4d40",
-		"inlineEdit.originalChangedLineBackground": "#cc000080",
-		"inlineEdit.originalChangedTextBackground": "#cc000080",
-		"inlineEdit.originalBorder": "#cc0000",
+		"inlineEdit.insertedTextBackground": "#22cc2280",
+		"inlineEdit.removedTextBackground": "#cc222280",
+		"inlineEdit.insertedLineBackground": "#22cc2240",
+		"inlineEdit.removedLineBackground": "#cc222240",
+		"inlineEdit.insertedTextBorder": "#22cc22",
+		"inlineEdit.removedTextBorder": "#cc2222",
+		
+		"inlineEdit.originalBackground": "#cc222240",
+		"inlineEdit.originalChangedLineBackground": "#cc222260",
+		"inlineEdit.originalChangedTextBackground": "#cc222280",
+		"inlineEdit.originalBorder": "#cc2222",
 		"inlineEdit.tabWillAcceptOriginalBorder": "#990000",
 		
-		"inlineEdit.modifiedBackground": "#00cc0040",
-		"inlineEdit.modifiedChangedLineBackground": "#00800080",
-		"inlineEdit.modifiedChangedTextBackground": "#00990080",
-		"inlineEdit.modifiedBorder": "#008000",
+		"inlineEdit.modifiedBackground": "#22cc2240",
+		"inlineEdit.modifiedChangedLineBackground": "#22cc2260",
+		"inlineEdit.modifiedChangedTextBackground": "#22cc2280",
+		"inlineEdit.modifiedBorder": "#22cc22",
 		"inlineEdit.tabWillAcceptModifiedBorder": "#006600",
 		
 		"inlineEdit.gutterIndicator.primaryForeground": "#fff",
@@ -89,8 +95,8 @@
 		"inlineEdit.gutterIndicator.secondaryBackground": "#D2CCB8",
 		"inlineEdit.gutterIndicator.secondaryBorder": "#D2CCB8",
 		"inlineEdit.gutterIndicator.successfulForeground": "#fff",
-		"inlineEdit.gutterIndicator.successfulBackground": "#008000",
-		"inlineEdit.gutterIndicator.successfulBorder": "#008000",
+		"inlineEdit.gutterIndicator.successfulBackground": "#22cc22",
+		"inlineEdit.gutterIndicator.successfulBorder": "#22cc22",
 		"inlineEdit.gutterIndicator.background": "#D2CCB850"
 	},
 	"tokenColors": [
