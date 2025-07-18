@@ -69,7 +69,6 @@
 		"tree.indentGuidesStroke": "#58564c",
 		"tree.inactiveIndentGuidesStroke": "#58564c70",
 		
-		// Inline Edit Colors - High Contrast Green and Red
 		"inlineEdit.originalBackground": "#ff4d4d40",
 		"inlineEdit.originalChangedLineBackground": "#cc000080",
 		"inlineEdit.originalChangedTextBackground": "#cc000080",
@@ -200,6 +199,17 @@
 			],
 			"settings": {
 				"foreground": "#b02402"
+			}
+		},
+		{
+			"scope": [
+				"markup.inline.raw",
+				"markup.inline.raw.string",
+				"markup.fenced_code",
+				"markup.raw"
+			],
+			"settings": {
+				"foreground": "#cc7a00"
 			}
 		},
 		{
