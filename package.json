@@ -29,12 +29,7 @@
 			{
 				"label": "Sharp Solarized - Light High Contrast",
 				"uiTheme": "hc-light",
-				"path": "./themes/Sharp Solarized - Light High Contrast-color-theme.json"
-			},
-			{
-				"label": "Sharp Solarized - Light High Contrast+",
-				"uiTheme": "hc-light",
-				"path": "./themes/Sharp Solarized - Light High Contrast+-color-theme.json"
+				"path": "./themes/sharp-solarized.json"
 			}
 		]
 	},
