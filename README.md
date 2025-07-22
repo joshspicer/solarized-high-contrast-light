@@ -1,6 +1,10 @@
 # 🔪 Sharp Solarized
 
-![image](./bqhrkbe8.png)
+
+| Sharp Solarized |
+| -----------------------|
+| ![image](./bqhrkbe8.png) |
+
 
 ## Credits
 This theme has been forked from and highly inspired by [tinytinytinytiny's theme](https://github.com/tinytinytinytiny/solarized-high-contrast-light).
